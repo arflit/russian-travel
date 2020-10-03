@@ -1,0 +1,20 @@
+.cover {
+  grid-area: cover;
+  margin: 92px auto 0;
+  width: 100%;
+  max-width: 1184px;
+  position: relative;
+  padding-bottom: 62.5%;
+ }
+
+ @media (max-width: 900px) {
+   .cover {
+     margin-top: 88px;
+   }
+ }
+
+ @media (max-width: 500px) {
+  .cover {
+    margin-top: 64px;
+  }
+}

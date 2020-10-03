@@ -1,8 +1,22 @@
 .lead {
   max-width: 984px;
-  margin: 0 auto;
-  padding-top: 56px;
+  margin: 56px auto 0;
+  padding: 0 48px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  grid-area: lead;
+}
+
+@media (max-width: 1095px) {
+  .lead {
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 900px) {
+  .lead {
+    margin: 48px 0 0 0;
+    padding: 0;
+  }
 }

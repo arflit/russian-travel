@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: 
+". lead ."
+". intro ."
+"photo-grid photo-grid photo-grid"
+". places ."
+"cover cover cover";
+}
+
+@media (max-width: 1095px) {
+  .content {
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "lead"
+    "intro"
+    "photo-grid"
+    "places"
+    "cover";
+  }
+}

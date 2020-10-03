@@ -1,0 +1,15 @@
+.place__url-box {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: calc(100%/2 - 8px);
+  margin: 0 0 48px 0;
+}
+
+@media (max-width: 500px) {
+  .place__url-box {
+    display: none;
+  }
+} 
