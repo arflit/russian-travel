@@ -17,10 +17,10 @@
       <a href="https://ru.wikipedia.org/wiki/Россия" >
         <img src="./images/header__logo.svg" alt="Логотип - контур России на карте" class="header__logo">
       </a>
-      <nav class="header__lang-links">
+      <div class="header__lang-links">
         <a href="#" class="header__lang-link header__lang-link_active link">Ru</a>
         <a href="#" class="header__lang-link link">En</a>
-      </nav>
+      </div>
     </header> 
     <main class="content">
      <section class="lead">
@@ -41,7 +41,6 @@
         </ul>
       </section>
        <section class="photo-grid">
-        <h2 class="photo-grid__title">Картинки из разных уголков России</h2><!--специально для валидатора-->
         <img src="./images/photo-grid-train.jpg" alt="Вид из окна поезда" class="photo-grid__item">
         <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Гора в облаках" class="photo-grid__item">
         <img src="./images/photo-grid-tuman.jpg" alt="Собака на стоге сена в тумане" class="photo-grid__item">
@@ -90,7 +89,7 @@
           </div>
           <img src="./images/place-altai.jpg" class="place__image" alt="Алтай">
           <div class="place__text-box">
-            <p class="place__paragraph">Алтай — одно из красивейших мест в России. <br>В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
+            <p class="place__paragraph">Алтай — одно из красивейших мест в&nbsp;России. В&nbsp;первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
             <p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
         </div>
@@ -118,22 +117,22 @@
           </div>
         </div>
       </section>
-     <section class="cover">
-        <img src="./images/cover-trains.jpg" class="cover__background" alt="поезда на сортировочной станции">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay">
+      <section class="cover">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
         </a>
+        <div class="cover__overlay"></div>
       </section>
     </main>  
     <footer class="footer">
       <nav>
       <ul class="footer__links">
-        <li><a href="https://yandex.ru/maps" class="footer__link link">Карты</a></li>
-        <li><a href="https://yandex.ru/pogoda" class="footer__link link">Погода</a></li>
-        <li><a href="https://rasp.yandex.ru" class="footer__link link">Расписание</a></li>
-        <li><a href="https://calendar.yandex.ru" class="footer__link link">Календарь</a></li>
-        <li><a href="https://travel.yandex.ru" class="footer__link link">Путешествия</a></li>
+        <li class="footer__linkbox"><a href="https://yandex.ru/maps" class="footer__link link">Карты</a></li>
+        <li class="footer__linkbox"><a href="https://yandex.ru/pogoda" class="footer__link link">Погода</a></li>
+        <li class="footer__linkbox"><a href="https://rasp.yandex.ru" class="footer__link link">Расписание</a></li>
+        <li class="footer__linkbox"><a href="https://calendar.yandex.ru" class="footer__link link">Календарь</a></li>
+        <li class="footer__linkbox"><a href="https://travel.yandex.ru" class="footer__link link">Путешествия</a></li>
       </ul>
       </nav>
       <p class="footer__copyright">&copy;	2020. Аркадий Флитман</p>

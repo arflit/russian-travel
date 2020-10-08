@@ -1,0 +1,14 @@
+.footer__linkbox {
+  margin-right: 18px;
+}
+
+@media (max-width: 720px) {
+  .footer__linkbox {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}
+
+.footer__linkbox:last-of-type {
+  margin: 0;
+}
