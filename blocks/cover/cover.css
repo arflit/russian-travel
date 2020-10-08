@@ -5,7 +5,7 @@
   max-width: 1184px;
   position: relative;
   box-sizing: border-box;
-  height: calc(min(1184px,100vw)*.625); 
+  height: calc(min(1184px,100vw)*.625);
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   z-index: 0;
